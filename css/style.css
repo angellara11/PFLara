@@ -15,36 +15,43 @@ body {
   border-radius: 10px;
 }
 
-.parrafo1 {
+.branding .left {
   font-size: 50px;
   color: cornsilk;
   text-shadow: 8px 8px 8px black;
 }
 
-.parrafo2 {
+.branding .right {
   font-size: 50px;
   text-shadow: 4px 4px 4px cornsilk;
 }
 
-.nav-center {
-  text-align: center;
-}
-
-.nav-font {
-  font-size: 18px;
-}
-
-.top-logo {
+.branding .logo {
   width: 110px;
   border-radius: 25px;
   border: solid black 3px;
   margin-top: 10px;
 }
 
-.top-logo:hover {
+.branding .logo:hover {
   box-shadow: 0px 0px 6px 6px #ec731e;
   border-radius: 40%;
   transition: all 1s ease;
+}
+
+.menu {
+  text-align: center;
+  font-size: 18px;
+}
+
+.menu .nav-item {
+  width: 115px;
+}
+
+nav .logo {
+  width: 50px;
+  border-radius: 10px;
+  border: solid black 3px;
 }
 
 .index-text-centre {
@@ -57,7 +64,7 @@ body {
   justify-content: center;
 }
 
-.img-costa-principal {
+.index-img-center > img {
   width: 92%;
   height: 600px;
   border-radius: 60px;
@@ -65,10 +72,7 @@ body {
   box-shadow: black 0px 0px 10px 10px;
 }
 
-.nav-li-size {
-  width: 115px;
-}
-.index-main-container-p-img {
+main .index-main-container-p-img {
   margin: 60px;
   line-height: 30px;
   display: flex;
@@ -80,16 +84,16 @@ body {
   border: solid black 2px;
   align-items: center;
 }
-.index-presentacion {
+.index-main-container-p-img .index-presentacion {
   width: 400px;
   text-align: center;
 }
 
-.index-main-pagina {
+/* .index-main-pagina {
   text-align: center;
-}
+} */
 
-.main-reserva {
+.index-main-container-p-img .main-reserva {
   padding: 5px 15px;
   border-radius: 5px;
 }
@@ -99,7 +103,7 @@ body {
   color: white;
 }
 
-.main-imgs {
+.index-main-container-p-img .main-imgs {
   width: 300px;
   height: 379.5px;
   border-radius: 30px;
@@ -111,7 +115,7 @@ body {
   justify-content: center;
 }
 
-.main-img-bodega {
+.centrar-foto-bodega .main-img-bodega {
   width: 600px;
   height: 400px;
   border-radius: 30px;
@@ -124,7 +128,7 @@ body {
   box-shadow: #f1a300 0 0 10px 10px;
 }
 
-.flex-img-mira {
+.centrar-foto-bodega .flex-img-mira {
   text-align: center;
 }
 
@@ -132,18 +136,18 @@ footer {
   background-color: #ffb925;
 }
 
-.flex-footer {
+footer .flex-footer {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
   padding: 70px;
 }
 
-.mail {
+footer .mail {
   padding-top: 50px;
 }
 
-.llamar {
+footer .llamar {
   padding-top: 50px;
 }
 
@@ -151,7 +155,7 @@ footer {
   font-weight: 800;
 }
 
-.transition-opacity {
+div h2 .transition-opacity {
   animation-name: somos;
   animation-duration: 6s;
 }
@@ -165,7 +169,7 @@ footer {
   }
 }
 
-.bo-box {
+main .bo-box {
   width: 90%;
   text-align: center;
   display: flex;
@@ -234,13 +238,13 @@ footer {
   margin: 60px 0;
 }
 
-.premier-main-video {
+.youtube-video-boatbar div .premier-main-video {
   width: 100%;
   height: 600px;
   border-radius: 20px;
 }
 
-.menu-container {
+main section .menu-container {
   text-align: center;
   background-color: antiquewhite;
 }
