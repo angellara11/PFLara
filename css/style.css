@@ -97,15 +97,15 @@ nav .logo {
   justify-content: center;
 }
 .index-img-center > img {
-  width: 92%;
+  width: 97%;
   height: 600px;
   border-radius: 60px;
   margin: 40px 10px 20px 14px;
   box-shadow: black 0px 0px 10px 10px;
 }
 
-main .index-main-container-p-img {
-  margin: 60px;
+.index-main-container-p-img {
+  margin: 1rem;
   line-height: 30px;
   display: flex;
   flex-direction: row;
@@ -116,6 +116,7 @@ main .index-main-container-p-img {
   border: solid black 2px;
   align-items: center;
 }
+
 main .bo-box {
   width: 90%;
   text-align: center;
@@ -155,7 +156,7 @@ main section .menu-container {
   justify-content: center;
 }
 .centrar-foto-bodega .main-img-bodega {
-  width: 600px;
+  width: 100%;
   height: 400px;
   border-radius: 30px;
   margin-bottom: 60px;
@@ -247,7 +248,7 @@ div h2 .transition-opacity {
 }
 
 .blog-img-size {
-  height: 400px;
+  height: 575px;
 }
 
 .blog-img-center {
@@ -275,6 +276,7 @@ div h2 .transition-opacity {
   .blog-imgs-container {
     display: flex;
     flex-direction: column;
+    width: 98%;
   }
   .blog-img {
     width: 100%;
@@ -302,3 +304,5 @@ div h2 .transition-opacity {
     padding: 0 10px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
