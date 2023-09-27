@@ -97,6 +97,7 @@ nav .logo {
   justify-content: center;
 }
 .index-img-center > img {
+  object-fit: cover;
   width: 97%;
   height: 600px;
   border-radius: 60px;
