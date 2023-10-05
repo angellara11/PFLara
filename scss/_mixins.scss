@@ -1,0 +1,14 @@
+@mixin nav-item ($active: 0) {
+    padding: 0.2rem 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    & >a {
+        text-decoration: none;
+        color: $background-color_2;
+    }
+    @if $active != 0 {
+        color: $background-color_1;
+        background-color: $background-color_5;
+    }
+}

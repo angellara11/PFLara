@@ -29,25 +29,22 @@
     <title>BoatBar | Reserva con Nosotros</title>
   </head>
   <body>
-    <header class="text-bg-warning">
-      <div
-        class="branding container-fluid d-flex justify-content-center align-items-center p-2"
-      >
-        <p class="left me-5">BOAT</p>
-        <div class="d-flex align-items-center">
+    <header>
+      <div class="branding container-fluid">
+        <div class="logo">
           <a href="/PreEntrega3Lara/index.html"
-            ><img
-              class="logo"
-              src="/PreEntrega3Lara/logoBB/logoNuevo.png"
-              alt="logo"
+            ><img src="/PreEntrega3Lara/logoBB/logoNuevo.png" alt="logo"
           /></a>
         </div>
-        <p class="right ms-5">BAR</p>
+        <div class="container-brand">
+          <span class="left"></span>
+          <span class="right">BOATBAR</span>
+        </div>
       </div>
       <nav
-        class="sticky-nav nav-bar-width navbar navbar-expand-lg bg-body-tertiary py-0"
+        class="nav-bar-width navbar navbar-expand-lg py-2"
       >
-        <div class="container-fluid bg-danger-subtle">
+        <div class="container-fluid">
           <a class="navbar-brand" href="/PreEntrega3Lara/index.html"
             ><img
               class="logo"
@@ -56,7 +53,7 @@
             />
           </a>
           <button
-            class="navbar-toggler"
+            class="nav-button navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -71,31 +68,30 @@
             id="navbarSupportedContent"
           >
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 pl-3">
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a
-                  class="nav-link active"
                   aria-current="page"
                   href="/PreEntrega3Lara/index.html"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/PreEntrega3Lara/pages/premier.html"
+                <a href="/PreEntrega3Lara/pages/premier.html"
                   >Premier</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/PreEntrega3Lara/pages/carta.html"
+                <a href="/PreEntrega3Lara/pages/carta.html"
                   >Carta</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/PreEntrega3Lara/pages/blog.html"
+                <a href="/PreEntrega3Lara/pages/blog.html"
                   >Blog</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/PreEntrega3Lara/pages/contacto.html"
+                <a href="/PreEntrega3Lara/pages/contacto.html"
                   >Contacto</a
                 >
               </li>
@@ -107,67 +103,61 @@
                 placeholder="Mojito..."
                 aria-label="Search"
               />
-              <button
-                class="btn btn-outline-success text-bg-info link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover px-3"
-                type="submit"
-              >
-                Buscar
-              </button>
+              <button class="button-primary" type="submit">Buscar</button>
             </form>
           </div>
         </div>
       </nav>
     </header>
-    <main>
-      <h1 class="index-text-centre">Inicio</h1>
-      <div class="linea"></div>
-      <section class="index-img-center">
-        <img src="/PreEntrega3Lara/images/costa-principal.jpg" alt="barco" />
+    <main class="index">
+      <section class="page-header">
+        <h1>Inicio</h1>
+        <div class="linea"></div>
       </section>
-      <section class="index-main-container-p-img">
+      <section class="presentation-card">
         <img
           data-aos="zoom-out-up"
           class="main-imgs"
           src="/PreEntrega3Lara/images/coctel-amigo1.jpg"
           alt="coctel con amigos"
-        />
-        <div class="index-presentacion">
-          <h2>Bienvenidos al BoatBar</h2>
-          <p>
-            Disfruta de tu experiencia a bordo, Contamos con una rica carta de
-            cócteles clásicos y de autor que renovamos cada temporada.
-          </p>
-          <p>
-            Nuestra especialidad: las copas Premium. Contamos con una variedad
-            de 15 marcas de ginebras, 30 marcas de rones, 20 de whiskies, 10
-            marcas de vodka, 5 tipos de tónicas, sin olvidar nuestra gran
-            variedad en brandies y licores.
-          </p>
-          <p>
-            Nuestra apuesta: convertir tu visita en una experiencia gourmet.
-            Consulta a nuestros bartenders y deja que te sorprendan con un
-            cóctel adecuado a tus gustos.
-            <span class="bold">¿NOS ACOMPAÑAS?</span>
-          </p>
-          <button class="main-reserva">Reserva con Nosotros</button>
-        </div>
-        <img
-          data-aos="zoom-out-up"
-          class="main-imgs"
-          src="/PreEntrega3Lara/images/coctel1.jpg"
-          alt="coctel"
+          />
+          <div class="text-block">
+            <h2>Bienvenidos al BoatBar</h2>
+            <div class="texto-presentacion">
+              <p>
+                Disfruta de tu experiencia a bordo, Contamos con una rica carta de
+                cócteles clásicos y de autor que renovamos cada temporada.
+              </p>
+              <p>
+                Nuestra especialidad: las copas Premium. Contamos con una variedad
+                de 15 marcas de ginebras, 30 marcas de rones, 20 de whiskies, 10
+                marcas de vodka, 5 tipos de tónicas, sin olvidar nuestra gran
+                variedad en brandies y licores.
+              </p>
+              <p class=>
+                Nuestra apuesta: convertir tu visita en una experiencia gourmet.
+                Consulta a nuestros bartenders y deja que te sorprendan con un
+                cóctel adecuado a tus gustos.
+                <span class="bold">¿NOS ACOMPAÑAS?</span>
+              </p>
+            </div>
+            <button class="button-primary">Reserva con Nosotros</button>          
+          </div>
+            <img
+            data-aos="zoom-out-up"
+            class="main-imgs"
+            src="/PreEntrega3Lara/images/coctel1.jpg"
+            alt="coctel"
         />
       </section>
-      <section class="centrar-foto-bodega">
-        <div class="flex-img-mira">
-          <h2>Mira nuestra bodega</h2>
+      <h2>Mira nuestra bodega</h2>
+      <section class="container-bodega">
           <img
             data-aos="zoom-in"
-            class="main-img-bodega"
+            class="img-bodega"
             src="/PreEntrega3Lara/images/bodega.jpg"
             alt="bodega"
           />
-        </div>
       </section>
     </main>
     <footer>
