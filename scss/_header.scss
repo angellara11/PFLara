@@ -5,11 +5,7 @@ header {
         align-items: center;
         background-color: $background-color_2;
         .container-brand {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
             padding: 10px;
-            margin-right: 30px;
         }
         .logo {
             img {
@@ -24,15 +20,25 @@ header {
                 }
             }
         }
-        .right {
+        .brand {
             font-size: 50px;
         }
     }
     nav {
         background-color: $background-color_3;
+        .nav-button {
+            background-color: $background-color_2;
+        }
         .menu {
             text-align: center;
             font-size: 18px;
+        .nav-ul {
+            font-family: $font-family_2;
+        }
+
+        .nav-input {
+            font-family: $font-family_2;
+        }   
             .nav-item {
                 @include nav-item();
                 &.active {
@@ -44,9 +50,6 @@ header {
             width: 50px;
             border-radius: 10px;
             border: solid black 3px;
-        }
-        .nav-button {
-            background-color: $background-color_2;
         }
     }
 }

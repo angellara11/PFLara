@@ -10,11 +10,12 @@
 
 .button-primary {
     padding: 0 10px;
-    border-radius: 5px;
+    border-radius: 8px;
     width: fit-content;
-    
+    font-family: $font-family_2;
+    background-color: $background-color_7;
     &:hover {
-        background-color: $background-color_3;
+        background-color: $background-color_5;
         color: $color_2;
     }
 }

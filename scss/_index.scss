@@ -17,6 +17,7 @@
 		@media (max-width: 600px) {
 			display: flex;
 			flex-direction: column;
+			margin: 0 2%;
 		}
 		.text-block {
 			display: flex;
@@ -26,6 +27,7 @@
 			.texto-presentacion {
 				display: flex;
 				flex-direction: column;
+				font-family: $font-family_2;
 			}
 		}
 		.main-imgs {
@@ -40,6 +42,9 @@
 	}	
 	.container-bodega {
 		margin: 0 10%;
+		@media (max-width: 600px) {
+			margin: 0 2%;
+		}
 		.img-bodega {
 			object-fit: cover;
 			width: 100%;
