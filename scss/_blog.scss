@@ -3,6 +3,8 @@ main{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		margin: 5% 10%;
+		gap: 3rem;
 		@media (max-width: 600px) {
 			margin: 0 10%;
 			}
@@ -24,10 +26,18 @@ main{
 		}
 		.blog-img-size {
 			height: 575px;
-	} 
-}
-	.blog-main-h2 {
-		text-align: center;
-		margin: 40px 0;
+		} 
 	}
-}
+	.blog-main-h2 {
+			text-align: center;
+			margin: 40px 0;
+			font-family: $font-family_2;
+		}
+	.container-redesSociales {
+		display: flex;
+		justify-content: center;
+		gap: 1rem;
+		margin: 0 0 9rem 0;
+	}	
+
+}	
