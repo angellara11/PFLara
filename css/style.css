@@ -20,6 +20,7 @@ header .branding .logo img:hover {
 }
 header .branding .brand {
   font-size: 50px;
+  font-family: "Aboreto", cursive;
 }
 header nav {
   background-color: #022e33;
@@ -30,12 +31,6 @@ header nav .nav-button {
 header nav .menu {
   text-align: center;
   font-size: 18px;
-}
-header nav .menu .nav-ul {
-  font-family: "Poppins", sans-serif;
-}
-header nav .menu .nav-input {
-  font-family: "Poppins", sans-serif;
 }
 header nav .menu .nav-item {
   padding: 0.2rem 1.5rem;
@@ -301,6 +296,10 @@ main .carta-container .linea-menu {
   padding: 30px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Aboreto", cursive;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -308,7 +307,7 @@ main .carta-container .linea-menu {
 }
 
 body {
-  font-family: "Aboreto", cursive;
+  font-family: "Poppins", sans-serif;
   background-color: #Edf6f5;
 }
 
